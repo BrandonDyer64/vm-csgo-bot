@@ -1,0 +1,28 @@
+{
+  "name": "vm-csgo-bot",
+  "version": "1.0.0",
+  "description": "Vicious Manbabies CSGO matchmaking bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonDyer64/vm-csgo-bot.git"
+  },
+  "author": "Brandon Dyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrandonDyer64/vm-csgo-bot/issues"
+  },
+  "homepage": "https://github.com/BrandonDyer64/vm-csgo-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "prettier": "^1.17.0"
+  }
+}
